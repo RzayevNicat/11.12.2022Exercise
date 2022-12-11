@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+
+/* table {
+    width: 100px;
+} */
+
+table i {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+tr {
+    color: white;
+}
