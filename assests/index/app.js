@@ -6,7 +6,7 @@ axios.get("https://northwind.vercel.app/api/suppliers")
         <td>${res.data[i].companyName}</td>
         <td>${res.data[i].contactName}</td>
         <td>${res.data[i].address.country}</td>
-        <td id="${res.data[i].id}"> <a href="../view/view.html"><i class="fa-solid fa-eye bg-primary"></i> </a> <a href="../update/update.html"><i class="fa-solid fa-wrench bg-warning"></i></a> <a><i class="fa-solid fa-trash bg-danger"></i></a> </td>
+        <td id="${res.data[i].id}"> <a href="https://11-12-2022-exercise-nu7z.vercel.app/view/view.html"><i class="fa-solid fa-eye bg-primary"></i> </a> <a href="https://11-12-2022-exercise-nu7z.vercel.app/update/update.html"><i class="fa-solid fa-wrench bg-warning"></i></a> <a><i class="fa-solid fa-trash bg-danger"></i></a> </td>
       </tr>`
 
         }
